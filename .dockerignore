@@ -1,0 +1,9 @@
+.git
+.idea
+docs
+venv
+.gitlab.ci
+itlabs.yaml
+README.md
+sonar-project.properties
+swagger.yaml

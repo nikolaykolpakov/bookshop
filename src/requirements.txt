@@ -1,5 +1,9 @@
+--use-feature 2020-resolver
 # our dependencies
 Django==4.0
+envparse==0.2.0
+psycopg2==2.9.3
+
 
 # other dependencies
 asgiref==3.4.1
