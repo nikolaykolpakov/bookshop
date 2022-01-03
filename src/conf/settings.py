@@ -42,7 +42,7 @@ PREREQ_APPS = [
 ]
 
 PROJECT_APPS = [
-    'src.apps.books.apps.BooksConfig',
+    'apps.books.apps.BooksConfig',
 ]
 
 INSTALLED_APPS = PREREQ_APPS + PROJECT_APPS
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'src.wsgi.application'
+WSGI_APPLICATION = 'conf.wsgi.application'
 
 
 # Database
